@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DBZ Oraculo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <!-- Image and text -->
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="img/logo.png"
+                            alt=""
+                            width="44"
+                            height="44"
+                            class="d-inline-block align-top"
+                        />
+                        DBZ Oraculo
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <!-- Players -->
+            <div class="players-login off">
+                <div class="mb-3">
+                    <label for="player1" class="form-label">Jugador 01</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="player1"
+                        placeholder="Nombre jugador"
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="player2" class="form-label">Jugador 02</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="player2"
+                        placeholder="Nombre jugador"
+                    />
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-outline-primary">
+                        Voy a tener suerte
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- spinner -->
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
