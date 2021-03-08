@@ -60,10 +60,176 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <!-- spinner -->
-        <div class="spinner-container">
-            <div class="spinner"></div>
+
+            <!-- spinner -->
+            <div
+                id="spinner-super-container"
+                class="spinner-super-container off"
+            >
+                <div class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <!-- slider -->
+            <div class="slider-container off">
+                <div class="lucky-cards">
+                    <h1 class="title-card">Carta 01/03 del Jugador 01</h1>
+
+                    <div
+                        id="carousel-lucky-cards"
+                        class="carousel carousel-dark slide"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carousel-lucky-cards"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carousel-lucky-cards"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carousel-lucky-cards"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    src="img/cards/gohan-definitivo.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="img/cards/kami.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="img/cards/goku-saiyayin.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carousel-lucky-cards"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carousel-lucky-cards"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                    <p class="description-card">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Eius eaque voluptas iusto, totam aliquid, odio
+                        veniam assumenda quae corrupti pariatur, alias ullam
+                        neque nesciunt officiis unde nobis maxime libero
+                        commodi.
+                    </p>
+                </div>
+            </div>
+
+            <!-- results -->
+            <div class="total-results off">
+                <div class="results-first-player">
+                    <h1 class="result-title">Cartas del Player 01</h1>
+                    <div class="pictures">
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="results-first-player">
+                    <h1 class="result-title">Cartas del Player 02</h1>
+                    <div class="pictures">
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                src="/img/cards/gohan-definitivo.png"
+                                class="img-fluid img-thumbnail"
+                                alt="..."
+                                width="110"
+                            />
+                        </picture>
+                    </div>
+                </div>
+
+                <p class="match">No hubo match</p>
+            </div>
         </div>
 
         <script
@@ -71,5 +237,6 @@
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"
         ></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
